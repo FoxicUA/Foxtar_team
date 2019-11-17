@@ -55,7 +55,8 @@
     .data{
       @media(max-width: 576px) {
         display: flex;
-        justify-content: start;
+        padding: 20px 15px;
+        justify-content: space-between;
       }
 
     }
@@ -75,8 +76,8 @@
       }
       @media(max-width: 576px) {
         display: flex;
-        padding: 20px 30px;
-        justify-content: start;
+        padding: 20px 15px;
+        justify-content: space-between;
       }
     }
 
@@ -382,10 +383,24 @@
   border: 1px #dedede solid;
   @media(max-width: 1200px) {
     padding: 0 10px 10px 10px;
-    .rating {
-      @media(max-width: 576px){
-        padding-left: 116px;
+    .card-mini {
+      @media(max-width: 576px) {
+        padding-left: 90px;
       }
+      .card-inf{
+        @media(max-width: 576px) {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+      }
+    }
+
+
+  }
+  .card-top-ten.card-mini.card-data{
+    @media(max-width: 576px) {
+      justify-content: start;
     }
   }
 .card-mini {
@@ -518,6 +533,10 @@
   padding: 19px;
   margin-bottom: 30px;
   justify-content: space-between;
+  @media(max-width: 576px){
+    display: none;
+
+  }
 }
 .filter-form{
   &:before {

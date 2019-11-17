@@ -11,11 +11,12 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="container">
+<div class="header">
+    <div class="container">
+        <div class="container-margin">
             <div class="header-top">
                 <div class="nav-left">
-                    <a href="#"><img src="img/logo-img-1.png" alt="image"></a>
+                    <a href="index.html"><img src="img/logo-img-1.png" alt="image"></a>
                 </div>
                 <div class="nav-right">
                     <div class="nav-right-call">
@@ -24,45 +25,114 @@
                     </div>
                     <div class="nav-right-notice">
                         <div class="dropdown">
-
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <div class="btn-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </div>
+                                    <span>8</span>
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
                             </button>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left"
+                                 aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">
+                                    <div class="card-notice">
+                                        <div class="card-shop-img">
+                                            <img src="img/card-shop-img-1.png" alt="image">
+                                        </div>
+                                        <div class="card-shop-text">
+                                            <h4>Grand Ballet</h4>
+                                            <p>WordPress</p>
+                                            <span>$59</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <div class="card-notice">
+                                        <div class="card-shop-img">
+                                            <img src="img/card-shop-img-1.png" alt="image">
+                                        </div>
+                                        <div class="card-shop-text">
+                                            <h4>Apple Device</h4>
+                                            <p>WordPress</p>
+                                            <span>$59</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="total">
+                                    <div class="total-price">
+                                        <p>Total</p>
+                                        <span>$118</span>
+                                    </div>
+                                    <div class="total-button">
+                                        <button class="btn-shop btn-success">Go to Cart</button>
+                                        <button class="btn-shop btn-danger">Go to Checkout</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="nav-right-actions">
                         <ul>
-                            <li><button type="button" class="btn btn-success btn-first">
-                                    Login
-                                </button></li>
+                            <li><button type="button" class="btn btn-success btn-first" data-toggle="modal"
+                                        data-target="#exampleModal">
+                                Login
+                            </button></li>
                             <li><button type="button" class="btn btn-danger">
-                                    Register
-                                </button></li>
+                                Register
+                            </button></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="header-bottom">
-            <div class="container">
-                <div class="nav-bottom">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="_product _details.html">WordPress</a></li>
-                        <li><a href="#">Joomla</a></li>
-<!--                        <li><a href="#">PSD</a></li>-->
-<!--                        <li><a href="#">Plugins</a></li>-->
-<!--                        <li><a href="all_new_items.html">Components</a></li>-->
-<!--                        <li><a href="upload_products.html">Pages</a></li>-->
-<!--                        <li><a href="#">Contact</a></li>-->
-<!--                        <li><a href="#">Help</a></li>-->
+    </div>
+    <div class="header-bottom">
+        <div class="container container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="navbar-padding">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="_product _details.html">WordPress</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Joomla</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PSD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Plugins</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="all_new_items.html">Components</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="upload_products.html">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
     </div>
+</div>
     <section class="hero_all">
         <p class="all_hero-descript">Premium WordPress Themes, Web Templates and Many More... </p>
         <form action="#" class="all_hero-search" method="post">
@@ -114,7 +184,7 @@
                     <div class="card-top-ten">
                         <h5 class="categories-title">Top 10 Sellers</h5>
                         <div class="cards">
-                            <div class="card card-mini">
+                            <div class="card card-mini card-top ">
                                 <div class="card-img">
                                     <img src="img/card-pic.jpg" alt="" class="img">
                                 </div>
@@ -144,7 +214,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card card-mini">
+                            <div class="card card-mini card-top">
                                 <div class="card-img">
                                     <img src="img/card-pic.jpg" alt="" class="img">
                                 </div>
@@ -174,7 +244,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card card-mini">
+                            <div class="card card-mini card-top">
                                 <div class="card-img">
                                     <img src="img/card-pic.jpg" alt="" class="img">
                                 </div>
