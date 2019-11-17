@@ -21,10 +21,12 @@
 }
 .row_main {
   display: flex;
-  @media (max-width: 576px) {
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
     display: block;
-
   }
+
+
 }
 .col {
   @media (max-width: 576px) {
@@ -387,19 +389,21 @@
       @media(max-width: 576px) {
         padding-left: 90px;
       }
+
       .data {
         @media(max-width: 576px) {
           justify-content: start;
         }
-        .bottompart
+      }
+
+      .bottompart {
         @media(max-width: 576px) {
           justify-content: start;
         }
       }
     }
-
-
   }
+}
 
 .card-mini {
   @media(max-width: 576px){
@@ -415,25 +419,20 @@
     }
 
     .card-inf {
-      padding: 20px 0;
+      padding: 20px 10px;
 
     }
 
     .bottompart {
       border-top: none;
-      padding: 0;
+      padding: 5px 10px;
 
-      &:not(:last-child) {
-        border-bottom: 2px #dedede solid;
-      }
+
     }
 
   }
 
-}
-
-
-.stars-mini {
+  stars-mini {
   position: relative;
   display: block;
   float: left;
@@ -531,7 +530,7 @@
   padding: 19px;
   margin-bottom: 30px;
   justify-content: space-between;
-  @media(max-width: 576px){
+  @media (min-width: 576px) and (max-width: 767.98px) {
     display: none;
 
   }
