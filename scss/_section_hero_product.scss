@@ -1,0 +1,75 @@
+.hero_product {
+  padding: 60px 0 60px 0;
+  background: url("../img/background-foxtar-second.jpg") no-repeat;
+  text-align: center;
+}
+.product_hero-descript {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 25px;
+  @media(max-width:768px){
+    font-size: 18px;
+  }
+  @media(max-width:576px){
+    font-size: 16px;
+  }
+}
+.product_search {
+  font-family: Roboto;
+  font-size: 14px;
+  border: transparent;
+  color: #90a4ae;
+  margin-right: 426px;
+  @media(max-width:1200px){
+    margin-right: 410px;
+  }
+  @media(max-width: 992px){
+    margin-right: 350px;
+  }
+  @media(max-width:768px){
+    margin-right: 330px;
+  }
+  @media(max-width:576px){
+    margin-right: 143px;
+  }
+}
+.product_hero-search {
+  position: relative;
+  background-color: #ffffff;
+  border-radius:5px;
+  border: transparent;
+  display: inline-block;
+  padding: 23px 23px;
+
+  box-shadow: 0px 1px 15px 0px rgba(111, 111, 110, 1);
+  @media(max-width:992px){
+    padding: 20px 23px;
+  }
+
+  @media(max-width:768px){
+    padding: 19px 23px;
+  }
+  @media(max-width:576px){
+    padding: 15px 15px;
+  }
+}
+.product_searchButton {
+  position: absolute;
+  background: url("../img/icon-hero.png") no-repeat;
+  border: transparent;
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  right: 25px;
+  @media(max-width:768px){
+    top: 18px;
+    right: 19px;
+  }
+  @media(max-width:576px){
+    top: 13px;
+    right: 15px;
+  }
+}

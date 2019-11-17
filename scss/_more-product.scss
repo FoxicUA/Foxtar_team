@@ -1,0 +1,102 @@
+.more-product {
+  padding-top: 52px;
+
+}
+.block-title {
+  background-color: $color-background-default;
+  border: 1px #dedede solid;
+  padding: 23px 28px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+    @media(max-width: 576px) {
+      font-size: 16px;
+  }
+}
+.card-super {
+  display: flex;
+  background-color: #fff;
+  border: 1px #dedede solid;
+  margin-top: 28px;
+  &:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+}
+.card-title-super {
+  font-size: 14px;
+  color: #000000;
+  line-height: 1;
+font-family: "Roboto Black";
+  @media(max-width: 768px) {
+    font-size: 13px;
+
+  }
+  @media(max-width: 576px) {
+    font-size: 20px;
+  }
+}
+.super-card-img {
+  width: 40%;
+  @media(max-width: 992px) {
+
+
+  }
+  @media(max-width: 768px) {
+    width: 50%;
+  }
+  @media(max-width: 576px){
+    width: 60%;
+}
+  img{
+    height: 100%;
+    width: 100%;
+  }
+
+}
+.card-discript-super {
+  color: $color-brand-primary;
+  line-height: 2;
+  font-size: 14px;
+  @media(max-width: 992px) {
+    line-height: 1px;
+    font-size: 13px;
+  }
+
+  @media(max-width: 768px) {
+    line-height: 1;
+    font-size: 13px;
+  }
+  @media(max-width: 576px) {
+    line-height: 1;
+    font-size: 18px;
+  }
+}
+
+.price-super {
+  color: #000000;
+  font-size: 18px;
+  line-height: 3;
+  @media(max-width: 768px) {
+    line-height: 1;
+  }
+  @media(max-width: 576px) {
+    line-height: 3;
+  }
+}
+.card-inf-super {
+  padding-top: 20px;
+  padding-left: 22px;
+  @media(max-width: 992px) {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+
+}
+.col-sm-12 {
+  @media(max-width: 576px){
+    width: 100%;
+
+  }
+}
+

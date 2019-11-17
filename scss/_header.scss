@@ -1,0 +1,316 @@
+.header-top {
+    height: 91px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    .nav-right {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        .nav-right-call{
+            line-height: 38px;
+            }
+    }
+}
+.container-margin {
+    margin: 0 -15px;
+}
+.nav-right-call {
+    padding-right: 28px;
+    span {
+        color: #ec7063;
+    }
+    a {
+        color: #546e7a;
+    }
+}
+.dropdown {
+    padding-right: 15px;
+    outline: none;
+}
+.nav-right-notice {
+    display: flex;
+    padding-right: 26px;
+    height: 100%;
+    i {
+        color: #a0a0a0;
+    }
+}
+.fa-bell::before {content: "\f0f3";}
+.fa-shopping-cart::before {content: "\f07a";}
+.fa-envelope::before {content: "\f0e0";}
+.fa-reply::before {content: "\f3e5";}
+.btn-icon {
+.fa-shopping-cart::before {
+    margin-right: 0;
+}
+}
+.dropdown-menu {
+    width: 268px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    & a {
+        padding: 0;
+    }
+} 
+.card-notice {
+    display: flex;
+    // justify-content: space-between;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+}
+.card-flex {
+    justify-content: space-between;
+}
+.card-massage-img  {
+    padding: 20px;
+    img {
+        width: 48px;
+        height: 48px;
+    }
+}
+.card-massage-text {
+    padding: 23px 0;
+    & h4 {
+        color: #000;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    & p {
+        color: #84b743;
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    & span {
+        color: #707070;
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+}
+.card-massage-icon {
+    padding: 27px 29px 50px 35px;
+    .icon-color {
+        color: #ef6c00;
+    }
+}
+.card-shop-img  {
+    padding: 19px 16px 23px 23px;
+     img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.card-shop-text {
+    padding: 23px 23px 23px 0;
+    & h4 {
+        color: #000;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    & p {
+        color: #84b743;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    & span {
+        color: #000;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+}
+.total {
+    border: 1px solid #e0e0e0;
+}
+.total-price {
+    display: flex;
+    justify-content:space-around;
+    padding: 19px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.total-button {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 16px 12px 16px;
+    .btn-shop {
+    border: none;
+    padding: 5px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    height: 35px;
+    }
+    .btn-success {
+        width: 105px;
+    }
+    .btn-danger {
+        width: 135px;
+    }
+}
+.dropdown-toggle {
+    height: 100%;
+    padding-right: 15px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.btn-icon {
+    background-color: #f5f5f5;
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+    border: none;
+    position: relative;
+    span {
+        color: #fff;
+        background-color: $color-brand-secondary;
+        border-radius: 10px;
+        font-size: 11px;
+        font-family: 'OpenSans', sans-serif;
+        font-weight: 600;
+        height: 18px;
+        width: 18px; 
+        position: absolute;
+        top: -8px;
+        left: 20px;
+    }
+    .massage-icon {
+        background-color: #ef6c00;
+    }
+    .bell-icon {
+        background-color: #fcb322;
+    }
+    i {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.nav-right-actions, .total-button {
+    .btn {
+        padding: 4px 20px;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 12px;
+    }
+    .btn-first {
+        margin-right: 7px;
+    }
+    .btn-success {
+        background-color: #8bc34a;
+        margin-right: 6px;
+    }
+    .btn-danger {
+        background-color: #e74c3c;
+    }
+}
+.nav-right-actions ul {
+    display: flex;
+    list-style: none;
+}
+.header-bottom {
+    background-color: #263238;
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0 0 0 -17px;
+        li{
+            padding: 19px 17px;
+            a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            }
+        }
+    }
+}
+
+.header {
+    .container-fluid {
+        padding: 0;
+    }
+}
+.navbar {
+    padding: 0;
+}
+.navbar {
+    background-color: transparent !important;
+}
+.navbar-padding {
+    padding: 10px 0;
+}
+.nav-link {
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $color-brand-primary;
+}
+.navbar-light .navbar-toggler {
+    background-color: $color-brand-primary;
+    border-color: $color-brand-secondary;
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .header {
+    .nav-right-call {
+        display: none;
+    }
+}
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .header {
+    .nav-right-call {
+        display: none;
+    }
+}
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .header {
+    span, a {
+        font-size: 10px;
+    }
+}
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .header {
+    span, a {
+        font-size: 12px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+    }
+}
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .header {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+    }
+}
+}

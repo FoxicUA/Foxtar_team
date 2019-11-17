@@ -1,0 +1,182 @@
+.modal-dialog {
+    max-width: 729px;
+    max-height: 484px;
+    padding: 0 15px;
+    .modal-content {
+        background-color: $color-brand-primary;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.4);
+        // max-width: 729px;
+        // max-height: 484px;
+    }
+}
+.modal-header {
+    border-bottom: none;
+    padding: 21px 28px 40px 0;
+    .close {
+        color: #fff;
+        padding: 0;
+        height: 13px;
+        width: 12px;
+        opacity: 1;
+    }
+}
+.modal-body {
+    padding: 0;
+    .modal-title {
+       font-size: 48px;
+       text-align: center;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 700;
+       padding: 0 0 23px 0;
+    }
+    .modal-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding-bottom: 113px;
+        input {
+            background-color: #76ae36;
+            color: #fff;
+            border: none;
+            width: 100%;
+            height: 43px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        input::placeholder {
+            color: #fff;
+        }
+    }
+}
+.modal-form-login {
+    position: relative;
+    padding-bottom: 8px;
+    i { 
+        position: absolute;
+        left: 18px; 
+        top: 10px;      
+    }
+}
+.modal-footer {
+    display: flex;
+    justify-content: flex-start;
+    border-top: none;
+    padding: 0;
+    padding-top: 11px;
+    padding-bottom: 26px;
+}
+.modal-footer > :not(:first-child) {
+    margin-left: 0; 
+}
+  .modal-footer > :not(:last-child) {
+    margin-right: 10px; 
+}
+
+.btn-submit {
+    width: 33.3%;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    font-size: 14px;
+    // width: 139px;
+    height: 48px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.btn-submit:hover {
+    background-color:  #76ae36;
+    color: #fff;
+}
+.btn-create {
+    width: 66.6%;
+    background-color: #76ae36;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    // width: 250px;
+    height: 50px;
+}
+.modal-lost {
+    a {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+.fa-user:before {content: "\f007";}
+.fa-lock:before {content: "\f023";}
+.fa-edit:before {content: "\f044";}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .btn-create {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .btn-submit {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .btn-create {
+        font-size: 10px;
+        padding: 5px 10px;
+        }
+    .btn-submit {
+        font-size: 10px;
+        padding: 5px 10px;
+        }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .btn-create {
+        font-size: 12px;
+        padding: 10px 20px;
+        }
+    .btn-submit {
+        font-size: 12px;
+        padding: 10px 20px;
+        }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    // .modal-dialog {
+    //     min-width: 80%;
+    // }
+    // .modal-form {
+    //     min-width: 80%;
+    // }
+    .btn-create {
+        font-size: 18px;
+        padding: 10px 25px;
+        }
+    .btn-submit {
+        font-size: 14px;
+        padding: 10px 25px;
+        }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .btn-create {
+        font-size: 18px;
+        padding: 10px 25px;
+        }
+    .btn-submit {
+        font-size: 14px;
+        padding: 10px 25px;
+        }
+}
+@media(max-width: 1200px) {
+    .modal-dialog {
+        min-width: 80%;
+    }
+    .modal-form {
+        min-width: 80%;
+    }
+}
