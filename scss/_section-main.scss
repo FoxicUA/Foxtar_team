@@ -387,22 +387,20 @@
       @media(max-width: 576px) {
         padding-left: 90px;
       }
-      .card-inf{
+      .data {
         @media(max-width: 576px) {
-          padding-left: 10px;
-          padding-right: 10px;
+          justify-content: start;
         }
-
+        .bottompart
+        @media(max-width: 576px) {
+          justify-content: start;
+        }
       }
     }
 
 
   }
-  .card-top-ten.card-mini.card-data{
-    @media(max-width: 576px) {
-      justify-content: start;
-    }
-  }
+
 .card-mini {
   @media(max-width: 576px){
     display: flex;
